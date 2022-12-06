@@ -1,0 +1,93 @@
+.home-section {
+
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/Assets/imgs/coreyy.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .home-section-text {
+        display: flex;
+        display: flex;
+        gap: 50px;
+        text-align: center;
+        flex-direction: column;
+        text-align: center;
+
+        h2 {
+            color: white;
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 25px;
+        }
+    }
+
+    h1 {
+        color: darkturquoise;
+        font-size: 50px;
+    }
+
+    h3 {
+        color: black;
+        font-size: 50px;
+    }
+
+    .circle-menu {
+        display: flex;
+        gap: 100px;
+
+        div {
+            display: flex;
+            background-color: white;
+            opacity: 75%;
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            font-size: 70px;
+            color: aqua;
+            gap: 15px;
+        }
+
+        p {
+            font-size: 20px;
+            color: black;
+        }
+    }
+
+}
+
+.home-section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+    .sag {width: 450px;
+        display: flex;
+    
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .sol {
+        width: 450px;
+        display: flex;
+        width: 450px;
+        display: flex;
+        gap: 184px;
+        flex-direction: column;
+        .sol1{ padding-top: 128px;}
+
+    }
+}

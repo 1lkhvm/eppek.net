@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  gap: 100px;
+}
+nav .EppekNavMenu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+nav .EppekNavMenu ul {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+}
+nav .EppekNavMenu ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+nav .leftnav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav .leftnav .icon {
+  color: white;
+  font-size: 30px;
+}
+nav .leftnav .icon a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
+}
+nav .leftnav .sebet {
+  color: white;
+  font-size: 30px;
+}
+
+.home-section {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(/Assets/imgs/coreyy.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home-section .home-section-text {
+  display: flex;
+  display: flex;
+  gap: 50px;
+  text-align: center;
+  flex-direction: column;
+  text-align: center;
+}
+.home-section .home-section-text h2 {
+  color: white;
+  font-size: 50px;
+}
+.home-section .home-section-text p {
+  font-size: 25px;
+}
+.home-section h1 {
+  color: darkturquoise;
+  font-size: 50px;
+}
+.home-section h3 {
+  color: black;
+  font-size: 50px;
+}
+.home-section .circle-menu {
+  display: flex;
+  gap: 100px;
+}
+.home-section .circle-menu div {
+  display: flex;
+  background-color: white;
+  opacity: 75%;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 70px;
+  color: aqua;
+  gap: 15px;
+}
+.home-section .circle-menu p {
+  font-size: 20px;
+  color: black;
+}
+
+.home-section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.home-section2 .sag {
+  width: 450px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.home-section2 .sol {
+  width: 450px;
+  display: flex;
+  width: 450px;
+  display: flex;
+  gap: 184px;
+  flex-direction: column;
+}
+.home-section2 .sol .sol1 {
+  padding-top: 128px;
+}/*# sourceMappingURL=main.css.map */
